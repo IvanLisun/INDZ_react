@@ -1,0 +1,56 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+li span {
+  cursor: pointer;
+}
+
+li button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.main-layout {
+  display: flex;
+  flex: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: -10px;
+  width: 100%;
+}
+
+.todo-list-container {
+  margin-top: -7520px;
+  margin-right: 600px;
+  /* Додаємо відступ між TodoList і іншими елементами */
+}
